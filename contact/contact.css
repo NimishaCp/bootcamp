@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+      background-size: cover;
+}
+.main{
+  float: right;
+  padding: 50px;
+  background: #fff;
+}
+.join{
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px 2px;
+      padding: 30px;
+      background: #fff;
+}
+.j{
+  text-decoration: underline;
+  color: #db70b8;
+  padding: 0 auto;
+
+}
+#whatsapp{
+    color: #4CAF50;
+    text-align: center;
+    display: block;
+    font-size: 15px;  }
+#github{
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+  }
+  #fb{
+    color: #4747d1;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+  }
+input{
+  width: 20%;
+  padding: 2px;
+  box-shadow: 1px 1px 1px 1px;
+
+}
+.form{
+  font-color:#ff33ff
+   margin: 0 auto;
+button{
+  color: #000;
+  padding: 10px 2px 2px 10px;
+  margin-left:500px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="forms.css">
+    <meta charset="utf-8">
+    <title>form</title>
+  </head>
+  <body>
+    <div class="form">
+    <form>
+      First name:
+      <input type="text" name="firstname"><br></br>
+      Last name:
+      <input type="text" name="lastname"><br></br>
+      Gender:
+      <input type="radio" name="gender" value="male" > Male
+      <input type="radio" name="gender" value="female" checked> Female
+      <input type="radio" name="gender" value="other"> Other<br></br>
+      Select your Car:
+      <select name="cars">
+         <option value="volvo">Volvo</option>
+         <option value="saab">Saab</option>
+         <option value="fiat">Fiat</option>
+         <option value="audi">Audi</option>
+         <option value="BMW">BMW</option>
+         <option value="Duster">Ford</option>
+      </select><br></br>
+      About Your Car:<br></br>
+      <textarea name="Details" rows="5" cols="10">
+      </textarea><br></br>
+       <button type="button" onclick="alert('success')">Submit</button>
+    </div>
+    </form>
+
+  </body>
+</html>
